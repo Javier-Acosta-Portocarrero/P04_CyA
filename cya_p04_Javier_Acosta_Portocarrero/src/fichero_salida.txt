@@ -1,0 +1,28 @@
+PROGRAM: prueba.cc
+
+DESCRIPTION:
+/**
+  * Universidad de La Laguna
+  * Escuela Superior de Ingenieria y Tecnologia
+  * Informatica Basica
+  *
+  * @brief Ejercicios de programacion
+  * Version 1: Funcion factorial
+  *
+  * @see https :// github .com/IB -2023 -2024/ IB -class -code - examples /
+  */
+
+VARIABLES :
+[LINE 22] INT: factorial = 1
+[LINE 32] INT: limit
+
+STATEMENTS :
+[LINE 23] LOOP: for
+[LINE 34] LOOP: for
+
+MAIN :
+True
+
+COMMENTS :
+[Line 1-10] DESCRIPTION
+[LINE 15] // Returns the factorial of the argument
