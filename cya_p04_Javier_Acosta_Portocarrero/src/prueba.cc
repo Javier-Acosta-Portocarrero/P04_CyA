@@ -4,13 +4,13 @@
   * Informatica Basica
   *
   * @brief Ejercicios de programacion
-  * Version 1: Funcion factorial
+  *        Version 1: Funcion factorial
   *
   * @see https :// github .com/IB -2023 -2024/ IB -class -code - examples /
   */
 
-# include < iostream >
-# include < cassert >
+#include <iostream>
+#include <cassert>
 
 // Returns the factorial of the argument
 int Factorial(int number ) {
@@ -27,7 +27,7 @@ int Factorial(int number ) {
   }
 }
 
-int main() {
+int main () {
   std :: cout << " Introduzca el numero de factoriales a calcular : ";
   int limit ;
   std :: cin >> limit ;

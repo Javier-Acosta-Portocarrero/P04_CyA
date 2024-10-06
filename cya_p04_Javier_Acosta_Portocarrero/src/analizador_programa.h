@@ -1,3 +1,21 @@
+// Universidad de La Laguna
+// Escuela Superior de Ingenierıa y Tecnologıa
+// Grado en Ingenier´ıa Informatica
+// Asignatura: Computabilidad y Algoritmia
+// Curso: 2º
+// Practica 4: Expresiones Regulares
+// Autor: Javier Acosta Portocarrero
+// Correo: alu0101660769@ull.edu.es
+// Fecha: 06/10/2024
+// Archivo analizador_programa.h: fichero de cabecera.
+// Contiene la declaración de la clase AnalizadorPrograma, la cual se encarga
+// de analizar todo el contenido de un programa para volcar los resultados en otro fichero.
+// Referencias: Hace uso de todas las demás clases de este programa.
+// Enlaces de interes
+//
+// Historial de revisiones
+// 06/10/2024 - Creacion (primera version) del codigo
+
 #include <iostream>
 #include <regex>
 #include <vector>
