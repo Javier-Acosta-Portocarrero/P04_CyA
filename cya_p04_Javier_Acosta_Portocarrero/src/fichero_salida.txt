@@ -17,7 +17,7 @@ VARIABLES:
 
 STATEMENTS:
 [LINE 23] LOOP: for
-[LINE 34] LOOP: for
+[LINE 36] LOOP: for
 
 MAIN :
 True
@@ -25,3 +25,7 @@ True
 COMMENTS:
 [Line 1-10] DESCRIPTION
 [LINE 15] // Returns the factorial of the argument
+[LINE 22] // Comentario en variable factorial
+[LINE 33-35] /**
+  int variable_trampa = 3;
+  */

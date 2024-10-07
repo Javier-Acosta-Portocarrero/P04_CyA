@@ -1,9 +1,9 @@
 CXX = g++
 CXXFLAGS = -Wall -std=c++11 
 
-TARGET = cya-P04-regex
+TARGET = cya_P04_regex
 
-SOURCES = analizador_programa.cc bucle.cc cliente_analizador_programa.cc comentario.cc variable.cc
+SOURCES = analizador_programa.cc bucle.cc cliente_analizador_programa.cc comentario.cc variable.cc funciones.cc
 
 OBJECTS = $(SOURCES:.cc=.o)
 

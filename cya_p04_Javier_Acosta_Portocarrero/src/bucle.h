@@ -16,6 +16,9 @@
 // Historial de revisiones
 // 06/10/2024 - Creacion (primera version) del codigo
 
+#ifndef BUCLE_H
+#define BUCLE_H
+
 #include <iostream>
 
 class Bucle {
@@ -28,3 +31,5 @@ class Bucle {
   int linea_;
   std::string tipo_;
 };
+
+#endif

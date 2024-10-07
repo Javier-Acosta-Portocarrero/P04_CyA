@@ -18,8 +18,21 @@
 
 #include <iostream>
 #include "analizador_programa.h"
+#include "funciones.h"
 
 int main(int argc, char *argv[]) {
+   if ((argc != 3 && argc != 2)) {
+    MostrarErrorDeEntrada();
+    return 1;
+  } else if (argc == 2) {
+    if (std::string(argv[1]) == "--help") {
+      MostrarMensajeDeAyuda();
+      return 0;
+    } else {
+      MostrarErrorDeEntrada();
+      return 1;
+    }
+  }
   AnalizadorPrograma prueba1(argv[1]);
   prueba1.AnalizarPrograma();
   prueba1.VolcarResultados(argv[2]);

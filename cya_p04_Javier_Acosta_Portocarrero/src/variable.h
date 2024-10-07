@@ -16,6 +16,9 @@
 // Historial de revisiones
 // 06/10/2024 - Creacion (primera version) del codigo
 
+#ifndef VARIABLE_H
+#define VARIABLE_H
+
 #include <iostream>
 
 class Variable {
@@ -29,3 +32,5 @@ class Variable {
   std::string variable_;
   int linea_;
 };
+
+#endif

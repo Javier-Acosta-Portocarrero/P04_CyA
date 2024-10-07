@@ -16,6 +16,9 @@
 // Historial de revisiones
 // 06/10/2024 - Creacion (primera version) del codigo
 
+#ifndef ANALIZADOR_PROGRAMA__H
+#define ANALIZADOR_PROGRAMA__H
+
 #include <iostream>
 #include <regex>
 #include <vector>
@@ -53,3 +56,5 @@ class AnalizadorPrograma {
   void AnalizarVariables(std::string texto_objetivo, int numero_linea);
   void DetectarMain(std::string texto_objetivo);
 };
+
+#endif

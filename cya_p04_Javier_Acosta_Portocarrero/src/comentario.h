@@ -16,6 +16,9 @@
 // Historial de revisiones
 // 06/10/2024 - Creacion (primera version) del codigo
 
+#ifndef COMENTARIO_H
+#define COMENTARIO_H
+
 #include <iostream>
 
 class Comentario {
@@ -35,3 +38,5 @@ class Comentario {
   int linea_comienzo_;
   int linea_final_;
 };
+
+#endif
