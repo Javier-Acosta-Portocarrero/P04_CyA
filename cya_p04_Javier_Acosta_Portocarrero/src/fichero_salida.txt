@@ -1,31 +1,27 @@
 PROGRAM: prueba.cc
 DESCRIPTION:
-/**
-  * Universidad de La Laguna
-  * Escuela Superior de Ingenieria y Tecnologia
-  * Informatica Basica
-  *
-  * @brief Ejercicios de programacion
-  *        Version 1: Funcion factorial
-  *
-  * @see https :// github .com/IB -2023 -2024/ IB -class -code - examples /
-  */
+// descripcion en una linea
 
 VARIABLES:
-[LINE 22] INT: factorial = 1
-[LINE 32] INT: limit
+[LINE 22] INT: teca = 25
+[LINE 23] DOUBLE: comida
 
 STATEMENTS:
-[LINE 23] LOOP: for
-[LINE 36] LOOP: for
+[LINE 9] LOOP: for
+[LINE 39] LOOP: while
 
 MAIN :
 True
 
 COMMENTS:
-[Line 1-10] DESCRIPTION
-[LINE 15] // Returns the factorial of the argument
-[LINE 22] // Comentario en variable factorial
-[LINE 33-35] /**
-  int variable_trampa = 3;
-  */
+[Line 1] DESCRIPTION
+[LINE 15-18] /*   comentario trampaa
+for () {
+}
+*/
+[LINE 21] //int teca = 24;
+[LINE 26-27] /*double loquesea
+*/
+[LINE 30] // int main() {
+[LINE 37] // while
+[LINE 45] // comentario

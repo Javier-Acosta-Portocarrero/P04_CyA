@@ -126,7 +126,7 @@ void AnalizadorPrograma::DetectarMain(std::string texto_objetivo) {
   */
 
 void AnalizadorPrograma::AnalizarComentarios(std::string texto_objetivo, int numero_linea) {
-  std::regex expresion_regular_comentario_una_linea("//.*"), expresion_regular_comentario_multilinea("/\\*\\*");
+  std::regex expresion_regular_comentario_una_linea("//.*"), expresion_regular_comentario_multilinea("/\\*.*");
   std::smatch match;
   if (numero_linea == 1) {
     if (regex_search(texto_objetivo, match, expresion_regular_comentario_multilinea)) {
